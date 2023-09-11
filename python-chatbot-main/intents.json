@@ -1,0 +1,220 @@
+{
+
+	
+    "intents": [
+        
+        {
+            "tag": "Saludo",
+            "patterns": [
+                "Quien esta?",
+                "Como estas?",
+                "Hey",
+                "Hola",
+                "Buenas",
+                "Buen dia",
+                "Hay alguien aqui?",
+                "Buenas Tardes"
+            ],
+            "responses": [
+          
+                "Hola Bienvenido, ¿En que puedo asistirlo?\n Ingresa 'OPCIONES'  "
+                
+            ],
+            "context": [
+                ""
+            ]
+        },
+	{
+	    "tag": "diagnostico",
+            "patterns": [
+                "Diagnostico",
+                "diagnosticarse",
+                "diagnosticarme",
+                "quiero hacer mi diagnostico"
+                
+            ],
+            "responses": [
+                "1-Tomar Diagnostico de YMRS \n 2.Diagnostico de HDRS \n 2-Conocer sintomas de Bipolarismo \n 3-Contactar profesional en salud Mental" 
+            ],
+            "context": [
+                ""
+            ]
+
+	},
+
+
+
+
+
+
+{
+	    "tag": "Euforia",
+            "patterns": [
+                "Euforia"
+            ],
+            "responses": [
+                "Escibi segun las opciones tu estado de Euforia\n 0 Ausente \n 1 Ligeramente o posiblemente aumentado en el interrogatorio\n 2 Euforia subjetiva definida; optimista, seguro de sí mismo; alegre; apropiado para el contenido \n 3 elevado; inapropiado para el contenido; humorístico \n 4 eufórico; risa inapropiada; cantando" 
+
+            ],
+            "context": [
+                ""
+            ]
+
+	},
+
+{
+	    "tag": "Euforia",
+            "patterns": [
+                "Euforia"
+            ],
+            "responses": [
+                "Escibi segun las opciones tu estado de Euforia\n 0 Ausente \n 1 Ligeramente o posiblemente aumentado en el interrogatorio\n 2 Euforia subjetiva definida; optimista, seguro de sí mismo; alegre; apropiado para el contenido \n 3 elevado; inapropiado para el contenido; humorístico \n 4 eufórico; risa inapropiada; cantando" 
+
+            ],
+            "context": [
+                ""
+            ]
+
+	},
+{
+	    "tag": "Hiperactividad",
+            "patterns": [
+                "Hiperactividad"
+            ],
+            "responses": [
+                "Escibi segun las opciones tu estado de Hiperactividad \n 0 Ausente \n 1 Aumentado subjetivamente\n 2 animado; los gestos aumentaron \n 3 Energía excesiva; hiperactivo a veces; inquieto (se puede calmar)\n 4 Excitación motora; hiperactividad continua (no se puede calmar)" 
+
+            ],
+            "context": [
+                ""
+            ]
+
+	},
+{
+	    "tag": "Impulso sexual",
+            "patterns": [
+                "Impulso Sexual"
+            ],
+            "responses": [
+                "Escribe segun opciones el estado de impulso sexual \n 0 Normal, no aumenta \n 1 Aumenta levemente \n 2 incrementa en la entrevista\n 3 Contenido sexual espontáneo; habla sobre asuntos sexuales \n 4 Actos sexuales manifiestos (hacia pacientes, personal o entrevistador)" 
+
+            ],
+            "context": [
+                ""
+            ]
+
+	},
+
+
+ 	{
+            "tag": "Sintomas",
+            "patterns": [
+	        "2",        
+		"Bipolar",
+		"Sintomas",
+                "Sintomas Bipolarismo",
+                "Sintomas de Bipolarismo"
+                
+            ],
+            "responses": [
+                "Esta patología también conocida como trastorno maníaco-depresivo, se caracteriza por producir alteraciones bruscas y prolongadas en el estado de ánimo de la persona que padece esta enfermedad. Un individuo con trastorno bipolar tiene emociones oscilantes que comprenden desde la desgana y el sentimiento de vacío (etapa de depresión) hasta la alegría y las emociones desenfrenadas (etapa maníaca o hipomaníaca). Estas fases suelen perdurar durante semanas e incluso meses y pueden afectar gravemente a la estabilidad mental de la persona que padece de trastorno bipolar."
+                
+            ],
+            "context": [
+                ""
+            ]
+        },
+
+
+        {
+            "tag": "Despedida",
+            "patterns": [
+		"SALIR",
+                "Adios",
+                "Hasta Luego",
+                "Chau",
+                "Te veo la proxima",
+                "bye"
+            ],
+            "responses": [
+                "Te veo!",
+                "Que tengas buen dia",
+                "Adios! Regresa cuando quieras"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Agradecimiento",
+            "patterns": [
+                "Gracias",
+                "Te agradezco",
+                "Saludos, gracias",
+                "Gracias por su ayuda"
+            ],
+            "responses": [
+                "Placer de ayudarlo!",
+                "A disposicion!",
+                "Con gusto"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "noanswer",
+            "patterns": [],
+            "responses": [
+                "Disculpe, ¿puede repetir su consulta?",
+                "¿Puede darme mas informacion?"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "OPCIONES",
+            "patterns": [
+		"OPCIONES",
+                "como podes ayudarme?",
+                "Que podes hacer?",
+                "Como me ayudas?",
+                "Que asistencia ofreces?"
+            ],
+            "responses": [
+                "Soy un chatbot de diagnostico. Mis capacidades son : \n 1. Hablar con vos sobre sintomas de bipolarismo. ! \n 2.Darte asistencia \n3.Diagnosticarte "
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Identidad",
+            "patterns": [
+                "Quien eres tu",
+                "Quien sos"
+            ],
+            "responses": [
+                "Soy un chatbot que utiliza Deep-Learning"
+            ]
+        },
+        
+
+       
+        {
+            "tag": "insulto",
+            "patterns": [
+                
+                "idiota",
+                
+                "callate",
+                "boludo"
+            ],
+            "responses": [
+                "Tratemos de calmarnos, estoy para ayudarte"
+            ]
+        }
+      
+    ]
+}
